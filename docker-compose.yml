@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    image: kashi-backend
+    build: .
+    ports: 
+    - 4000:4000
