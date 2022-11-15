@@ -6,6 +6,6 @@ app.use(express.json());
 app.get("/helth", (req, res) => {
   res.send("Kashi");
 });
-app.listen("4000", () => {
-  console.log("listening 4000");
+app.listen("6000", () => {
+  console.log("listening 6000");
 });
